@@ -70,3 +70,10 @@
 | :--------: | :-------: |
 | ![수신자 선택](https://user-images.githubusercontent.com/54324782/165067556-bb45ad85-4711-436e-82e3-64475fb54ce5.png)    | ![그룹 선택](https://user-images.githubusercontent.com/54324782/165067778-b96925ca-538c-43c8-8e06-69298a476f1f.png)      |
 <br>
+
+## 3. 서버 배포
+### (1) Spring Boot 
+  - war 파일 생성 후 Tomcat을 통해 컨테이너 구축 및 배포하였습니다.
+### (2) React
+  - build 파일 생성 후 컨테이너를 구축하고 index.js 파일을 읽어들일 수 있는 경로에 배포하였습니다.
+### (3) 다른 웹 사이트와 함께 구동되어야 하므로 Nginx를 사용하였습니다.
